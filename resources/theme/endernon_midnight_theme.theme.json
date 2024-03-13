@@ -1,0 +1,16 @@
+{
+  "name": "Endernon's midnight theme",
+  "dark": true,
+  "author": "Endernon",
+  "editorScheme": "/h.xml",
+  "ui": {
+    "*": {
+      "background": "#000000",
+      "inactiveBackground": "#000000",
+      "activeBackground": "#000000",
+      "selectionBackground": "#0c2a3f",
+      "selectionInactiveBackground": "#0c2a3f"
+    },
+    "EditorTabs.inactiveMaskColor": "#000000"
+  }
+}

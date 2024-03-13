@@ -1,0 +1,21 @@
+<scheme name="endernon_midnight_theme" version="142" parent_scheme="Darcula">
+    <metaInfo>
+        <property name="created">2024-03-13T22:52:11</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2023.3.0.0</property>
+        <property name="modified">2024-03-13T22:52:25</property>
+    </metaInfo>
+    <colors>
+        <option name="CONSOLE_BACKGROUND_KEY" value="0" />
+        <option name="GUTTER_BACKGROUND" value="0" />
+    </colors>
+    <attributes>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="a9b7c6" />
+                <option name="BACKGROUND" value="0" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+    </attributes>
+</scheme>

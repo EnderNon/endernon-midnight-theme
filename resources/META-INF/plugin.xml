@@ -1,0 +1,37 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+  <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+  <id>endernon_midnight_theme</id>
+  <version>1.0.0</version>
+
+  <!-- Public plugin name should be written in Title Case.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+  <name>Endernon Midnight Theme</name>
+  <category>UI</category>
+
+  <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+  <vendor email="ender_non@outlook.com" url="https://git.endernon.com">Ahmsord Absinthe Brewing Co.</vendor>
+
+  <idea-version since-build="231" until-build="241.*"/>
+
+  <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+       Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+  <description><![CDATA[
+    Darcula theme with black background, and not much else.
+  ]]></description>
+
+  <!-- Short summary of new features and bugfixes in the latest plugin version.
+       Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+  <change-notes><![CDATA[
+    V1
+  ]]></change-notes>
+
+  <!-- Product and plugin compatibility requirements.
+       Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="endernon_midnight_theme" path="/theme/endernon_midnight_theme.theme.json"/>
+  </extensions>
+</idea-plugin>
